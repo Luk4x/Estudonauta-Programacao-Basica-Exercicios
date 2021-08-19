@@ -4,8 +4,7 @@ programa
 	inclua biblioteca Calendario --> ca
 	funcao inicio()
 	{
-		escreva("{ EXERCÍCIO 16 - Serviço Militar v1.0 }\n")
-		escreva("Em que ano você nasceu? ")
+		escreva("{ EXERCÍCIO 16 - Serviço Militar v1.0 }\nEm que ano você nasceu? ")
 		inteiro nasc
 		leia(nasc)
 
@@ -23,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 107; 
+ * @POSICAO-CURSOR = 217; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

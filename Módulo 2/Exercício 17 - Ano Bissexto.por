@@ -9,7 +9,7 @@ programa
 		
 		escreva("O ano ", ano)
 		
-		se (((ano%4==0 ou ano%400==0) e (ano%100!=0)) ou ((ano%100==0 e ano%400==0))) {
+		se (((ano%4==0 ou ano%400==0) e ano%100!=0) ou (ano%100==0 e ano%400==0)) {
 			escreva(" É BISSEXTO!")
 		} senao {
 			escreva(" NÂO É BISSEXTO!")
@@ -21,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 106; 
+ * @POSICAO-CURSOR = 411; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

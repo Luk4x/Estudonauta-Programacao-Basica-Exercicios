@@ -5,9 +5,12 @@ programa
 	inclua biblioteca Calendario --> ca
 	funcao inicio()
 	{
-		escreva("{ EXERCÍCIO 20 - Dá pra ver o filme? }\n======== CINEMA ESTUDONAUTA ========\nHORÁRIO DO FILME: 13h - PREÇO DO INGRESSO: R$20\n------------------------------------------------\nQuanto Dinheiro você tem? R$")
+		escreva("{ EXERCÍCIO 20 - Dá pra ver o filme? }\n======== CINEMA ESTUDONAUTA ========\nHORÁRIO DO FILME: ",
+		"13h - PREÇO DO INGRESSO: R$20\n------------------------------------------------\nQuanto Dinheiro você tem? R$")
 		inteiro din
 		leia(din)
+		
+		escreva("Agora são ", ca.hora_atual(falso), " horas. ")
 
 		se (ca.hora_atual(falso)<=13 e din>=20) {
 			escreva("Você tem dinheiro suficiente para comprar o ingresso. Compre enquanto ainda dá tempo!")
@@ -25,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 477; 
+ * @POSICAO-CURSOR = 513; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

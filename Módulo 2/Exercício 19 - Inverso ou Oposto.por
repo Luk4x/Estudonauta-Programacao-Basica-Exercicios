@@ -12,7 +12,7 @@ programa
 		se (nu>0) {
 			escreva("O inverso de ", nu, " é igual a ", ti.inteiro_para_real(1)/nu)
 		} senao {
-			escreva("O oposto de ", nu, " é igual a ", ma.valor_absoluto(ti.inteiro_para_real(nu)))
+			escreva("O oposto de ", nu, " é igual a ", ma.valor_absoluto(ti.inteiro_para_real(nu))) // Forma que pensei primeiramente.
 			escreva("\nO oposto de ", nu, " é igual a ", nu = nu-nu*2) // Forma que pensei e quis testar e acabou funcionando.
 		}
 	}
@@ -22,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 568; 
+ * @POSICAO-CURSOR = 637; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
