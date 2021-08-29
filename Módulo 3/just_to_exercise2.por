@@ -3,26 +3,30 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro ctrl=1, v, v1=0, v2=-1
+		inteiro ctrl=1, v, ma_v=0, me_v=0
 		
 		escreva("Maior e Menor Valor\n\n")
 		
 		enquanto (ctrl<=5) {
 			escreva("Digite o valor: ")
 			leia(v)
-			
-			se (v1<v) {
-				v1=v
-			}
 
-			se (v2>v ou v2==-1) {
-				v2=v
+			se (ctrl==1) {
+				ma_v=v
+				me_v=v
+			} senao {
+				se (ma_v<v) {
+					ma_v=v
+				}
+				se (me_v>v) {
+					me_v=v
+				}
 			}
 			
 			ctrl++
 		}
 
-		escreva("\nMaior: ", v1, "\nMenor: ", v2)
+		escreva("\nMaior: ", ma_v, "\nMenor: ", me_v)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -30,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 65; 
+ * @POSICAO-CURSOR = 307; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
