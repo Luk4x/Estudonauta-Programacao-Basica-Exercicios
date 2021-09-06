@@ -23,8 +23,8 @@ programa
 
 			ctrl++
 		}
-		escreva("-------------------------------------------------------------\nVocê digitou ", npa, " números pares. A média entre eles é de ", ma.arredondar(pa/npa, 2), "\nVocê digitou ", nim, 
-		" números ímpares. A média entre eles é de ", ma.arredondar(im/nim,2))
+		escreva("-------------------------------------------------------------\nVocê digitou ", npa, " números pares. A média entre eles é de ",
+		ma.arredondar(pa/npa,2), "\nVocê digitou ", nim, " números ímpares. A média entre eles é de ", ma.arredondar(im/nim,2))
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -32,8 +32,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 108; 
+ * @POSICAO-CURSOR = 607; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

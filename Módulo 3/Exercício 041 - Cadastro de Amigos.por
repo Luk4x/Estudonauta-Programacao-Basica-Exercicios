@@ -1,7 +1,8 @@
 programa
-{ // Estudonauta: Programação básica. Módulo 3, Aula 9, Exercício 041. (https://estudonauta.com/)
+{ // Estudonauta: Programação básica. Módulo 3, Aula 9, Exercício 041. (https://estudonauta.com/)
 
-	inclua biblioteca Matematica --> ma
+	inclua biblioteca Texto --> tx
+	inclua biblioteca Matematica --> ma
 	inclua biblioteca Tipos --> ti
 	funcao inicio()
 	{
@@ -13,7 +14,7 @@ programa
 		enquanto (verdadeiro) {
 			escreva("\n----------------- NOVO AMIGO -----------------\nOBS: Digite 'ACABOU' no nome para parar\nNome: ")
 			leia(nom)
-			se (nom=="ACABOU" ou nom=="acabou") {
+			se (tx.caixa_alta(nom)=="ACABOU") {
 				pare
 			} senao {
 				escreva("Idade: ")
@@ -43,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 80; 
+ * @POSICAO-CURSOR = 569; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

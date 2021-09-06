@@ -25,16 +25,16 @@ programa
 				}
 			} senao se (sex=='F' ou sex=='f') {
 				t_mu++
+				se (sal>1000) {
+					t_mu_mil++
+				}
 			}
 
-			se ((sex=='F' ou sex=='f') e sal>1000) {
-				t_mu_mil++
-			}
 			t_pe++
 			
 			escreva("Continuar? [S/N]: ")
 			leia(re)
-			se (re=='N' ou re=='n') {
+			se (re!='S' e re!='s') {
 				pare
 			}
 		}
@@ -43,13 +43,13 @@ programa
 		"\nMédia salarial dos homens: R$", t_ho_sal/t_ho, "\nTotal de mulheres que ganham mais de Mil Reais: ", t_mu_mil, "\nMaior Salário entre os homens: R$",
 		ma_sal_ho)
 	}
-}
+} 
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1109; 
+ * @POSICAO-CURSOR = 732; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
