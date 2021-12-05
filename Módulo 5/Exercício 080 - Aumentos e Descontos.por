@@ -1,5 +1,5 @@
 programa
-{ // Estudonauta: Programação básica. Módulo 5, Aula 8, Exercício 080. (https://estudonauta.com/)
+{ // Estudonauta: Programação básica. Módulo 5, Aula 8, Exercício 080. (https://estudonauta.com/)
 	
 	funcao inicio()
 	{
@@ -18,10 +18,11 @@ programa
 	}
 
 	funcao real mudapreco(real preco, inteiro variador, cadeia tipo) {
+		real formula = preco*variador/100
 		se (tipo=="A") {
-			retorne preco+(preco*variador/100)
+			retorne preco+formula
 		} senao {
-			retorne preco-(preco*variador/100)
+			retorne preco-formula
 		}
 	}
 }
@@ -30,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 427; 
+ * @POSICAO-CURSOR = 815; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

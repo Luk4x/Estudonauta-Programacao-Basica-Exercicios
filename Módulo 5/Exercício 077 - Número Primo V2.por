@@ -16,17 +16,14 @@ programa
 	}
 
 	funcao logico n_primo(inteiro n) {
-		inteiro vezes = 0
-		para (inteiro i=1;i<=n;i++) {
+		logico primo = verdadeiro
+		para (inteiro i=2;i<n;i++) {
 			se (n%i==0) {
-				vezes++
+				primo = falso
+				pare
 			}
 		}
-		se (vezes<=2) {
-			retorne verdadeiro
-		} senao {
-			retorne falso
-		}
+		retorne primo
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -34,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 378; 
+ * @POSICAO-CURSOR = 553; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

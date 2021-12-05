@@ -1,5 +1,5 @@
 programa
-{ // Estudonauta: Programação básica. Módulo 5, Aula 8, Exercício 079. (https://estudonauta.com/)
+{ // Estudonauta: Programação básica. Módulo 5, Aula 8, Exercício 079. (https://estudonauta.com/)
 	
 	inclua biblioteca Tipos --> ti
 	funcao inicio()
@@ -12,17 +12,15 @@ programa
 	}
 
 	funcao cadeia fibonacci(inteiro q) {
-		cadeia res = "0, 1"
+		cadeia fib = "0, 1"
 		inteiro n1=0, n2=1, n3
 		para(inteiro i=3;i<=q;i++) {
 			n3=n1+n2
 			n1=n2
 			n2=n3
-			res+= ", "
-			res+=ti.inteiro_para_cadeia(n3, 10)
+			fib+= ", " + ti.inteiro_para_cadeia(n3, 10)
 		}
-		res+="."
-		retorne res
+		retorne fib+"."
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -30,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 521; 
+ * @POSICAO-CURSOR = 547; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
