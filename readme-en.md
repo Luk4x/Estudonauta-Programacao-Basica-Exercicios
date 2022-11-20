@@ -62,7 +62,7 @@ After that, in the terminal:
 
 | :placard: Vitrine.Dev | Lucas Maciel |
 | -------------  | --- |
-| :sparkles: Name        | **Estudonauta: Programação Básica**
+| :sparkles: Name        | **👨‍🚀 Estudonauta: Programação Básica**
 | :label: Technologies | lógica de programação, portugol-studio
 | :camera: Img         | ![](https://user-images.githubusercontent.com/86276393/202290783-13072a3c-cb21-41af-86fd-e7820fc1d74e.gif#vitrinedev)
 
